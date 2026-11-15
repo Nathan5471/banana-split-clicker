@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Darumadrop One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  background-color: #fec0cb;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.banana {
+  display: flex;
+  background-color: #fff8c6;
+  height: 100%;
+  width: 33%;
+  padding: 10px;
+}
+
+.ice-cream {
+  display: flex;
+  background-color: #fffafa;
+  height: 100%;
+  width: 33%;
+  padding: 10px;
+}
+
+.banana-split {
+  display: flex;
+  background-color: #d0f0c0;
+  height: 100%;
+  width: 33%;
+  padding: 10px;
+}
